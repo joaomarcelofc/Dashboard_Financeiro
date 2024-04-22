@@ -25,3 +25,7 @@ horizonte de previsão). A Data App deve mostrar os dados previstos em formato d
 Vamos construir a Data App com Linguagem Python, usando o Streamlit como biblioteca para criação da app, Prophet para criação do modelo de Machine Learning e previsão com
 séries temporais e os gráficos interativos com o Plotly.
 
+<p align="center">
+  <img src= "img/streamlit.jpg"width=70% >
+</p>
+
