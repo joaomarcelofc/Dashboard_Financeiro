@@ -1,0 +1,7 @@
+Pacote yfinance python - para importar os dados
+
+Plotly - para gráficos dinânicmos e interativos
+
+Prophet - para fazer as previsões
+
+Streamlit - biblioteca para construiu dataapp e executar no navegador
