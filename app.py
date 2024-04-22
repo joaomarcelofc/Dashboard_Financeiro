@@ -19,7 +19,6 @@ INICIO = "2015-01-01"
 HOJE = date.today().strftime("%Y-%m-%d")
 
 # Define o título do Dashboard
-st.title("Mini-Projeto 2 - Data App")
 st.title("Dashboard Financeiro Interativo e em Tempo Real Para Previsão de Ativos Financeiros")
 
 # Define o código das empresas para coleta dos dados de ativos financeiros
@@ -30,7 +29,7 @@ empresas = ('PBR', 'GOOG', 'UBER', 'PFE')
 empresa_selecionada = st.selectbox('Selecione a Empresa Para as Previsões de Ativos Financeiros:', empresas)
 
 # Função para extrair e carregar os dados
-@st.cache_datax
+@st.cache_data
 def carrega_dados(ticker):
     dados = yf.download(ticker, INICIO, HOJE)
     dados.reset_index(inplace = True)
